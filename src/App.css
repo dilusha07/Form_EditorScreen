@@ -1,4 +1,4 @@
-
+/* Global Styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -42,3 +42,97 @@ body {
 .purple { background-color: #c39bd3; }
 .black { background-color: #1c1c1c; }
 .green { background-color: #b4e197; }
+
+
+/* Sidebar */
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  width: 280px;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Horizontal Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+
+.tab {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.tab.active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.steps {
+  list-style: none;
+  padding: 0;
+}
+
+.step-btn {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.add-field-btn {
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.end-screen-btn {
+  padding: 10px;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Sidebar Save/Delete Buttons */
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.save-btn, .delete-btn {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.save-btn {
+  background-color: black;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
