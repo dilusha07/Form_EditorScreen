@@ -57,13 +57,14 @@ function App() {
       
       <div className="main-content">
         {!selectedField && <WelcomeScreen />} 
+        {selectedField === 'welcome' && <WelcomeScreen />}
         {selectedField === 'email' && <EmailScreen />}
       </div>
 
       {settingsOpen && (
         <div className="settings-panel">
-          
-          {selectedField === 'welcome' ? <WelcomeSetting /> : <EmailSetting onClose={closeSettings} />}
+            
+          {selectedField === 'welcome' ? <WelcomeSetting onClose={closeSettings} /> : <EmailSetting onClose={closeSettings} />}
         </div>
       )}
 
