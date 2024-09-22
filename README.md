@@ -12,7 +12,7 @@ This is a Form Editor Screen using React. Features include a welcome screen, Ema
 
 1. Clone the repository:
    ```sh
-   git clone  (https://github.com/dilusha07/Form_EditorScreen.git)
+   git clone  [https://github.com/dilusha07/Form_EditorScreen.git]
 2. Navigate to the project directory.
 3. Run `npm install` to install dependencies.
 4. Start the server using `npm start`.
